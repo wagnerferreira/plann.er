@@ -1,7 +1,7 @@
-import { X, Tag, Calendar } from "lucide-react";
-import { Button } from "../../components/button";
-import { useEffect, type FormEvent } from "react";
+import { Calendar, Tag, X } from "lucide-react";
+import { type FormEvent } from "react";
 import { useParams } from "react-router-dom";
+import { Button } from "../../components/button";
 import { api } from "../../lib/axios";
 
 interface CreateActivityModalProps {
